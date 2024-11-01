@@ -1,11 +1,15 @@
+.gitignore
 MANIFEST.in
 README.md
+gitlab-swagger.png
+root-page.png
 setup.cfg
 setup.py
 diploma_frontend.egg-info/PKG-INFO
 diploma_frontend.egg-info/SOURCES.txt
 diploma_frontend.egg-info/dependency_links.txt
 diploma_frontend.egg-info/top_level.txt
+dist/diploma-frontend-0.6.tar.gz
 frontend/__init__.py
 frontend/admin.py
 frontend/apps.py
@@ -307,3 +311,4 @@ frontend/templates/frontend/progressPayment.html
 frontend/templates/frontend/sale.html
 frontend/templates/frontend/signIn.html
 frontend/templates/frontend/signUp.html
+swagger/swagger.yaml
