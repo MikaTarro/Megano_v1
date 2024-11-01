@@ -34,3 +34,4 @@
 Логин: Customer
 
 Пароль: Privet123
+![изображение](https://github.com/user-attachments/assets/28a09f05-fd37-4b8e-a173-d457ba211487)
