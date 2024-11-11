@@ -129,10 +129,12 @@ MEDIA_ROOT = BASE_DIR / 'uploads'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+REST_FRAMEWORK = {
+    # другие настройки DRF здесь
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
 
 REST_FRAMEWORKS = {
-    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
-
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.SessionAuthentication',
 
@@ -144,6 +146,17 @@ REST_FRAMEWORKS = {
      ),
     "DEFAULT_PAGINATION_CLASS": "rets_framework.pagination.PageNumberPagination",
     "PAGE_SIZE": 10,
+
+    'DEFAULT_SCHEMA_CLASS': (
+        'drf_spectacular.openapi.AutoSchema',
+    ),
+}
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Megano API-Map',
+    'DESCRIPTION': 'pet prjct',
+    'VERSION': '0.1.0',
+    'SERVE_INCLUDE_SCHEMA': False,
 }
 
 LOGGING = {

@@ -82,6 +82,14 @@ cd your-ptoject/diploma-frontend/swagger
 
 и скопировать содержимое swagger.yaml и вставить его в https://editor.swagger.io/
 
+## API drf_spectacular 
+
+Для просмотра полной документации API приложения необходимо перейти по пути
+
+```bash
+  http://127.0.0.1:8000/api/schema/swagger/
+```
+![img_1.png](img_1.png)
 
 ## Приложения которые бb|ли реализованны в проекте:
 
